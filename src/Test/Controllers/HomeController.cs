@@ -10,12 +10,13 @@ namespace Test.Controllers
     {
         public IActionResult Index()
         {
+            var test = 1;
             return View();
         }
 
         public IActionResult About()
         {
-            ViewData["Message"] = "Feature Branch Change";
+            ViewData["Message"] = "Test Branch1";
 
             return View();
         }
